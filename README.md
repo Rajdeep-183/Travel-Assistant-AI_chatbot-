@@ -29,6 +29,7 @@ An AI-powered travel assistant chatbot built using **Flask**, **Gemini API**, an
 Create a .env file in the root directory and add your API keys:
 
 GEMINI_API_KEY=your_gemini_api_key_here
+<br>
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
 
 🚀 Run Locally
