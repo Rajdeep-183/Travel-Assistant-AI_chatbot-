@@ -14,6 +14,37 @@ An AI-powered travel assistant chatbot built using **Flask**, **Gemini API**, an
 
 ---
 
-## 📁 Project Structure
 
-ai-travel-assistant/ │ ├── app.py # Flask app ├── chatbot.py # Gemini + Google Maps logic ├── requirements.txt # Python dependencies ├── .env # 🔐 Environment variables (DO NOT SHARE) ├── .gitignore # Hides sensitive files │ ├── templates/ │ └── index.html # Frontend HTML page │ └── static/ └── style.css # CSS styling
+---
+
+## ⚙️ Requirements
+
+- Python 3.8+
+- Flask
+- googlemaps
+- python-dotenv
+- google-generativeai
+
+🔐 Setup .env File
+Create a .env file in the root directory and add your API keys:
+
+GEMINI_API_KEY=your_gemini_api_key_here
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+
+🚀 Run Locally
+python app.py
+
+💻 How to Use
+Ask travel questions like:
+
+"Suggest places to visit in Goa"
+
+"What are famous attractions near Delhi?"
+
+
+🤖 Credits
+Gemini by Google
+Google Maps API
+Flask
+
+
